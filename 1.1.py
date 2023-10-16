@@ -8,6 +8,7 @@ for i in range(n - 1, -1, -1):
     p += a
     p1 *= x
     p1 += a * i
-p1 //= x
+if x != 0:
+    p1 //= x
 print(p)
 print(p1)
